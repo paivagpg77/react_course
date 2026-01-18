@@ -1,5 +1,5 @@
-
 import './App.css';
+import HelloWolrd  from './components/HelloWorld';
 
 function App() {
   const name = 'Gabriel'
@@ -8,11 +8,9 @@ function App() {
   function sum(a,b){
     return a+b
   }
-
   function div(a,b){
     return a/b
   }
-
 
   const url = "https://picsum.photos/300/200"
   const url2 = "https://placehold.co/300x200?text=React"
@@ -25,7 +23,8 @@ function App() {
       <p>Divisão: {div(4,2)}</p>
       
       <img src={url2} alt='Minha imagem'/>
-
+      <HelloWolrd/>
+     
     </div>
   );
 }
